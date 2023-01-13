@@ -16,10 +16,6 @@
         <p id="myname"> Hello My Name Is </p>
 		<h1> Joshua Brown </h1>
  
-		body {
-
-			color: blue;
-		  }
 	</div>
 
 
@@ -27,14 +23,18 @@
 
 <style> 
 
+body{
+	background-color: #d1ae7f;
+}
 .josh_ico {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), <img src="josh.ico" alt="">;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), <img src="josh_ico.jpg" alt="">;
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 	
+
 }
 #myname{
 	font-size: 300px;

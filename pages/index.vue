@@ -1,9 +1,20 @@
+
 <template>
-  <Tutorial />
+  <div>
+    <Home/> 
+    <HeroImage/>
+  </div>
 </template>
 
+
+
 <script>
+import HeroImage from '../components/HeroImage.vue';
+
+
+
 export default {
-  name: 'IndexPage',
+    name: "IndexPage",
+    components: { HeroImage }
 }
 </script>
